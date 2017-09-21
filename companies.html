@@ -1,10 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>companies</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/mediaQuery.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
-
+<main>
+  <div class="wrapperComps">
+    <div class="block totalComps">
+    <div class="header">
+        <span>TOTAL COMPANIES</span>
+    </div>
+    <i class="fa fa-spinner fa-pulse fa-3x fa-fw loader" id="loaderFirst" aria-hidden="true"></i>
+        <div class="totalRound">
+            <p class="total">Total</p>
+        </div>
+    </div>
+    <div class="block CompaniesList">
+        <div class="header">
+            <span>List Of Companies</span>
+        </div>
+    <i class="fa fa-spinner fa-pulse fa-3x fa-fw loader" id="loaderSecond" aria-hidden="true"></i>
+    <ul class="compsList">
+    </ul>
+    </div>
+    <div class="partners">
+        <div class="header">
+            <span>- Partners - </span>
+            <i class="fa fa-times-circle close1" aria-hidden="true"></i>
+            <div class="btn-group-sm" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary" id="alphabetSort">Sort by Aphabet</button>
+                <button type="button" class="btn btn-secondary" id="numberSort">Sort by Number</button>
+            </div>
+        </div>
+        <div class="partnersList">
+        </div>
+    </div>
+    <div class="block location">
+    <div class="header">
+        <span>Companies by location</span>
+        <i class="fa fa-times-circle close2" aria-hidden="true"></i>
+    </div>
+    <i class="fa fa-spinner fa-pulse fa-3x fa-fw loader" id="loaderThird" aria-hidden="true"></i>
+        <ul class='locations'>
+        </ul>
+        <ul class="compsByLocation">
+        </ul>
+        <div class="percent">
+        </div>
+        <div id="chart">
+        </div>
+    </div>
+    <div class="block news">
+        <div class="header">
+            <span>News</span>
+        </div>
+    <i class="fa fa-spinner fa-pulse fa-3x fa-fw loader" id="loaderFourth" aria-hidden="true"></i>
+    <!-- Карусель новостей -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner newsBlock">
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+  </div>
+</main>
+<script src="JS/companies.js"></script>
 </body>
 </html>

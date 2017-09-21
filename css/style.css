@@ -6,22 +6,25 @@ body {
     background-size: 420px;
 }
 main {
-    padding-top: 45px;
-    margin: 0 auto;
     min-width: 320px;
-    max-width: 600px;
+    padding: 45px 15px 0;
 }
-.wrapper {
+.wrapperComps {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.wrapperReg {
+    margin: 0 auto;
+    max-width: 650px;
+}
+.regForm {
     background-color: #c8c8c8;
-
-    /*max-width: 800px;*/
     padding: 15px;
     border-radius: 0 0 10px 10px;
-    /*height: 400px;*/
 }
 .header {
     background-color: #007aff;
-    color: white;
+    color: #FFFFFF;
     font-weight: bold;
     display: block;
     text-align: center;
@@ -32,6 +35,222 @@ main {
 .input-group {
     margin-bottom:20px;
 }
-i {
+.frame {
     width: 20px;
+}
+.block {
+    position: relative;
+    background-color: #c8c8c8;
+    width: 550px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.partners {
+    margin: 0 auto;
+    display: none;
+    width: 550px;
+    height: 250px;
+    background-color: #c8c8c8;
+    border-radius: 10px;
+}
+.compsList {
+    font-size: small;
+    overflow: auto;
+    height: 450px;
+    list-style-type: none;
+}
+.listItems {
+    font-size: 15pt;
+    text-align: center;
+    padding: 6px;
+}
+.listItems:hover {
+    margin: 0 auto;
+    background-color: #007aff;
+    color: #FFFFFF;
+    border-radius: 10px;
+    max-width: 200px;
+}
+.loader {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 48%;
+}
+.newsBlock {
+    padding: 0 20px;
+    height: 500px;
+}
+.image {
+    position: absolute;
+    max-height: 250px;
+    max-width: 250px;
+    bottom: -93px;
+    right: 20px;
+    border-radius: 15px;
+}
+.text {
+    margin-top: 100px;
+}
+.partnersList {
+    overflow: auto;
+    white-space: nowrap;
+}
+.partnersList > div {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    background-color: #007aff;
+}
+.partnersItem {
+    list-style-type: none;
+}
+.format {
+    display: block;
+    display: -webkit-box;
+    max-width: 450px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.4;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 140px;
+}
+.partnerName {
+    font-weight: bold;
+    margin-top: 25px;
+}
+.shares {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #FFFFFF;
+    width: 100%;
+}
+.locations {
+    float: left;
+    padding: 4px 0 0 4px;
+    max-width: 200px;
+    margin: 0 auto;
+    overflow: auto;
+    height: 300px;
+}
+.locationItems {
+    list-style-type: none;
+    text-align: center;
+    padding: 6px;
+}
+.locationItems:hover {
+    margin: 0 auto;
+    background-color: #007aff;
+    color: #FFFFFF;
+    border-radius: 10px;
+    max-width: 200px;
+}
+.compsByLocation {
+    max-width: 200px;
+    float: right;
+    padding: 4px 15px 0 0;
+    overflow: auto;
+    height: 250px;
+}
+.totalRound {
+    display: none;
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 25%;
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    background-color: #ffa500;
+}
+.total {
+    font-size: 20pt;
+    font-weight: bold;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 25%;
+}
+.number {
+    font-size: 70pt;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 25%;
+}
+.percent {
+    display: none;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    background-color: #007aff;
+    text-align: center;
+}
+.percentNumber {
+    margin-top: -30px;
+    color: #FFFFFF;
+    font-size: 35pt;
+}
+#chart{
+    margin-left: 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 10px;
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+.percentItem {
+    float: right;
+    text-align: center;
+    width: 35px;
+    font-size: small;
+    border-radius: 5px;
+    margin: 0 3px;
+}
+.num{
+    position: absolute;
+    bottom: 1px;
+}
+.lowerText{
+    margin-top: 20px;
+    color: black;
+    font-weight: bolder;
+    font-size: 13pt;
+}
+.location {
+    position:relative;
+    padding-bottom:50px;
+}
+.header > i{
+    float: right;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.header > i:hover {
+    color: #ff0000;
 }

@@ -1,0 +1,59 @@
+@media only screen and (max-width: 600px) {
+
+    .block {
+        max-width: 350px;
+        min-height: 500px;
+    }
+    .partners {
+        max-width: 350px;
+    }
+    #chart {
+        left: 11%;
+    }
+    .percent {
+        visibility: hidden;
+    }
+    .locations {
+        width: 140px;
+    }
+    .compsByLocation {
+        width: 140px;
+    }
+    .news {
+        height: 600px;
+    }
+    .carousel-item > h3 {
+        margin-top: 30px;
+    }
+    .text {
+        position: absolute;
+        top: -125px;
+    }
+    .link {
+        position: absolute;
+        top: -26px;
+        left: 100px;
+    }
+    .image {
+        display: flex;
+        position: inherit;
+        max-height: 200px;
+        max-width: 200px;
+        top: 180px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .block {
+        max-width: 300px;
+    }
+    .partners {
+        max-width: 300px;
+    }
+    #chart {
+        left: 5%;
+    }
+}

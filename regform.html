@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Registration</title>
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -12,16 +12,16 @@
 </head>
 <body>
 <main>
+    <div class="wrapperReg">
     <span class="header">Registration</span>
-    <div class="wrapper">
-
-<form action="http://www.codeit.pro/frontTestTask/user/registration" id="regform" method='post'>
+    <div class="regForm">
+    <form action="http://www.codeit.pro/frontTestTask/user/registration" id="regform" method='post'>
     <div class="input-group">
-        <span class="input-group-addon"><i class="fa fa-address-card" aria-hidden="true"></i></span>
+        <span class="input-group-addon"><i class="fa fa-address-card frame" aria-hidden="true"></i></span>
         <input  name="name" required="required" type="text" class="form-control" placeholder="Name">
     </div>
     <div class="input-group">
-        <span class="input-group-addon"><i class="fa fa-address-card-o" aria-hidden="true"></i></span>
+        <span class="input-group-addon"><i class="fa fa-address-card-o frame" aria-hidden="true"></i></span>
         <input name="secondname" required="required" type="text" class="form-control" placeholder="Secondname">
     </div>
     <div class="input-group">
@@ -29,14 +29,14 @@
         <span class="input-group-addon" id="basic-addon2">@example.com</span>
     </div>
     <div class="input-group">
-        <span class="input-group-addon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+        <span class="input-group-addon"><i class="fa fa-user-o input-frame frame" aria-hidden="true"></i></span>
         <select class="form-control" id="gender" name="gender">
             <option value="male">Male</option>
             <option value="female">Female</option>
         </select>
     </div>
     <div class="input-group">
-        <span class="input-group-addon"><i class="fa fa-asterisk" aria-hidden="true"></i></span>
+        <span class="input-group-addon"><i class="fa fa-asterisk frame" aria-hidden="true"></i></span>
         <input id="pass" name="pass" required="required" type="password" class="form-control" placeholder="Password">
     </div>
     <div class="form-check">
@@ -46,10 +46,10 @@
         </label>
     </div>
     <button type="submit" class="btn btn-primary" id="button">Submit</button>
-    <!--<span class="warning">Please check conditions!</span>-->
 </form>
 </div>
+    </div>
 </main>
-<script src="JS/script.js"></script>
+<script src="JS/register.js"></script>
 </body>
 </html>
