@@ -57,6 +57,9 @@ main {
     background-color: #c8c8c8;
     border-radius: 10px;
 }
+.headerText {
+    margin-left: -35px;
+}
 .compsList {
     font-size: small;
     overflow: auto;
@@ -162,7 +165,7 @@ main {
     max-width: 200px;
     float: right;
     padding: 4px 15px 0 0;
-    overflow: auto;
+    overflow-y: scroll;
     height: 250px;
 }
 .totalRound {
@@ -214,7 +217,7 @@ main {
     color: #FFFFFF;
     font-size: 35pt;
 }
-#chart{
+#chart {
     margin-left: 10px;
     background-color: #FFFFFF;
     position: absolute;
@@ -232,7 +235,7 @@ main {
     border-radius: 5px;
     margin: 0 3px;
 }
-.num{
+.num {
     position: absolute;
     bottom: 1px;
 }
@@ -246,11 +249,17 @@ main {
     position:relative;
     padding-bottom:50px;
 }
-.header > i{
+.header > i {
     float: right;
     margin-right: 10px;
     margin-top: 3px;
 }
 .header > i:hover {
     color: #ff0000;
+}
+#alphabetSort {
+    float: left;
+    margin-left: 10px;
+    height: 27px;
+    font-size: 9pt;
 }

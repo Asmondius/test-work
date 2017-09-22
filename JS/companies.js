@@ -41,7 +41,6 @@ $.getJSON('http://codeit.pro/frontTestTask/company/getList',
             var n=$set.index(this);
             $(".partners").show();
             $('.partnersList').empty(); //Очистить результат
-
             for (var j = 0; j < data.list[n].partners.length; j++) {
                 $('.partnersList').append('<div id=item' + j + '></div>');
                         $('#item' + j).append('<p class="partnerName">' + data.list[n].partners[j].name + '</p>');
