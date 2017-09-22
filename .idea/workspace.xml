@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31d3d180-f544-4752-aa37-3495fdf0da93" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/companies.js" afterPath="$PROJECT_DIR$/JS/companies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/register.js" afterPath="$PROJECT_DIR$/JS/register.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,7 +45,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="companies.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="companies.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/JS/companies.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="221">
@@ -67,11 +66,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="register.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/JS/register.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -149,8 +148,8 @@
         <option value="$PROJECT_DIR$/companies.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/regform.html" />
-        <option value="$PROJECT_DIR$/JS/register.js" />
         <option value="$PROJECT_DIR$/JS/companies.js" />
+        <option value="$PROJECT_DIR$/JS/register.js" />
       </list>
     </option>
   </component>
@@ -345,7 +344,7 @@
       <workItem from="1505817736026" duration="23410000" />
       <workItem from="1505900879058" duration="34833000" />
       <workItem from="1505968660381" duration="43877000" />
-      <workItem from="1506056727347" duration="4377000" />
+      <workItem from="1506056727347" duration="4482000" />
     </task>
     <task id="LOCAL-00001" summary="added file">
       <created>1505653019343</created>
@@ -358,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178844000" />
+    <option name="totallyTimeSpent" value="178949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,25 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mediaQuery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3774">
-          <caret line="222" column="23" lean-forward="true" selection-start-line="222" selection-start-column="23" selection-end-line="222" selection-end-column="23" />
-          <folding>
-            <marker date="1506059727853" expanded="true" signature="4054:4068" ph="..." />
-            <marker date="1506059727853" expanded="true" signature="4055:4068" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/companies.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -661,10 +641,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/register.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="3774">
+          <caret line="222" column="23" lean-forward="true" selection-start-line="222" selection-start-column="23" selection-end-line="222" selection-end-column="23" />
+          <folding>
+            <marker date="1506059727853" expanded="true" signature="4054:4068" ph="..." />
+            <marker date="1506059727853" expanded="true" signature="4055:4068" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mediaQuery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -685,6 +676,14 @@
             <element signature="e#5570#5923#0" expanded="false" />
             <element signature="n#!!block;n#compsInCountry#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

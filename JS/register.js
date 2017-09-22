@@ -5,18 +5,6 @@
 "use strict";
 licence();
 
-// обработка ответа не работает
-// $(document).ready(function() {
-//     $('html').on('submit', 'form', function() {
-//         $(this).html('Идет обработка данных, пожалуйста подождите');
-//         $.post($(this).attr('action'), $(this).serialize()).done(function(data) {
-//             var data = JSON.parse(data);
-//             $(this).html(data.message);
-//         })
-//         return false;
-//     })
-// });
-
 
 // Проверка чекбокса
 function licence() {
