@@ -21,8 +21,6 @@ $.getJSON('http://codeit.pro/frontTestTask/company/getList',
         var k;
         var r = 0;
         for (var i = 0; i < data.list.length; i++) {
-            k = 0;
-            k = data.list[i].partners.length;
             $('.compsList').append('<li class="listItems">' + data['list'][i].name + '</li>'); //Добавляем список компаний
         }
 
@@ -31,7 +29,7 @@ $.getJSON('http://codeit.pro/frontTestTask/company/getList',
             k = data.list[i].partners.length;
             r = r + k;
         }
-        r = r + data.list.length;
+        r = r + data.list.length; //общее количество компаний
         $('.totalRound').append('<p class="number">' + r + '</p>');
         $(".totalRound").show();
         $('#loaderfirst').fadeOut(700);
